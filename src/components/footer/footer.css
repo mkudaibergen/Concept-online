@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.footer-container {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #172853;
+}
+.footer-links a:not(:first-child){
+    margin-left: 20px;
+}
+.footer-links img{
+    width: 22px;
+    width: 22px;
+}

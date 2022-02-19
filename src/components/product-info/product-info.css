@@ -1,0 +1,24 @@
+.product-info-main{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 30px;
+    position: absolute;
+    animation-name: Opening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+@keyframes Opening {
+    0% {transform: translateY(0px); opacity: 0}
+    100% {transform: translateY(500px); opacity: 1;}
+}
+
+.product-info-close {
+    margin-left: 400px;
+    font-size: 30px;
+    cursor: pointer;
+}
+

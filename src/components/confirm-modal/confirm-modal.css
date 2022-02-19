@@ -1,0 +1,45 @@
+.confirm-modal{
+    width: 400px;
+    height: 300px;
+    float: left;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+    position: absolute;
+    animation-name: Opening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+@keyframes Opening {
+    0% {transform: translate(50%, 0%); opacity: 0}
+    100% {transform: translate(50%, 20%); opacity: 1;}
+}
+.confirm-modal-text{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.confirm-modal-btn{
+    width: 370px;
+    height: 40px;
+    background-color: #4376FB;
+    border-radius: 5px;
+    border: 0px solid #4376FB;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.confirm-modal-close{
+    font-size: 30px;
+    color: black;
+    margin-left: 400px;
+    cursor: pointer;
+}
